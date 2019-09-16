@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableFeignClients(basePackages = {"noc"})
 @ComponentScan("noc")
-@EnableScheduling
+//@EnableScheduling
 public class NocRedisApp {
     public static void main(String[] args) {
         SpringApplication.run(NocRedisApp.class,args);
